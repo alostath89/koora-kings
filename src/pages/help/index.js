@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react'
 import { connect } from 'dva'
 import { withI18n } from '@lingui/react'
-import { Page } from 'components'
+import { Page } from '../../../src/components'
 import styles from './index.less'
 import { config, helpers } from '../../../src/utils'
 import { Button, Col, Form, Input, Row, Select } from 'antd'

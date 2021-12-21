@@ -16,7 +16,7 @@ import {
   Checkbox,
 } from 'antd'
 import { withI18n } from '@lingui/react'
-import { Page, ImageUploadCrop } from 'components'
+import { Page, ImageUploadCrop } from '../../../../src/components'
 import styles from './SponsoredContests.less'
 import BraftEditor from 'braft-editor'
 import 'braft-editor/dist/index.css'

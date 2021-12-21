@@ -4,7 +4,7 @@ import { router } from '../../../../src/utils'
 import { connect } from 'dva'
 import { Form, Descriptions, Col, Row, Avatar } from 'antd'
 import { withI18n } from '@lingui/react'
-import { Page } from 'components'
+import { Page } from '../../../../src/components'
 import { withRouter } from 'react-router'
 
 @withI18n()

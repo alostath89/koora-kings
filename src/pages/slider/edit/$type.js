@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { router } from '../../../../src/utils'
 import { connect } from 'dva'
 import { withI18n } from '@lingui/react'
-import { Page } from 'components'
+import { Page } from '../../../../src/components'
 import Slider from '../components/Slider'
 import { Form } from 'antd'
 @withI18n()

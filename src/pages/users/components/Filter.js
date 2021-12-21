@@ -2,7 +2,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import moment from 'moment'
-import { FilterItem } from 'components'
+import { FilterItem } from '../../../../src/components'
 import { Trans, withI18n } from '@lingui/react'
 import {
   Form,

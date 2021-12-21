@@ -4,7 +4,7 @@ import { router } from '../../../../src/utils'
 import { connect } from 'dva'
 import { Form } from 'antd'
 import { withI18n } from '@lingui/react'
-import { Page } from 'components'
+import { Page } from '../../../../src/components'
 import styles from '../components/Players.less'
 import Players from '../components/Players'
 

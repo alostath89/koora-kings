@@ -15,7 +15,7 @@ import {
   Icon,
 } from 'antd'
 import { withI18n } from '@lingui/react'
-import { Page, ImageUploadCrop } from 'components'
+import { Page, ImageUploadCrop } from '../../../../src/components'
 import styles from './Leagues.less'
 import _ from 'lodash'
 import moment from 'moment'

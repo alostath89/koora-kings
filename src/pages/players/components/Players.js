@@ -15,7 +15,7 @@ import {
   Icon,
 } from 'antd'
 import { withI18n } from '@lingui/react'
-import { Page } from 'components'
+import { Page } from '../../../../src/components'
 import styles from './Players.less'
 import _ from 'lodash'
 import { withRouter } from 'react-router'

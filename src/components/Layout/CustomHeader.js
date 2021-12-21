@@ -4,7 +4,7 @@ import { Menu, Icon, Layout, Button } from 'antd'
 import { langFromPath } from 'utils'
 import { Trans, withI18n } from '@lingui/react'
 import classnames from 'classnames'
-import config from 'config'
+import config from '../../../src/utils/config'
 import styles from './Header.less'
 import './CustomHeader.less'
 const { SubMenu } = Menu

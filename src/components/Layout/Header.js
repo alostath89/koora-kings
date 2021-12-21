@@ -6,7 +6,7 @@ import { Trans, withI18n } from '@lingui/react'
 import { setLocale } from 'utils'
 import moment from 'moment'
 import classnames from 'classnames'
-import config from 'config'
+import config from '../../../src/utils/config'
 import styles from './Header.less'
 
 const { SubMenu } = Menu

@@ -7,7 +7,7 @@ import { ROLE_TYPE } from 'utils/constant'
 import { queryLayout, pathMatchRegexp } from 'utils'
 import { CANCEL_REQUEST_MESSAGE } from 'utils/constant'
 import api from '../services/api'
-import config from 'config'
+import config from '../utils/config'
 import listOfRoute from '../router'
 import axios from 'axios'
 

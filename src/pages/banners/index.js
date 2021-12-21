@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
-import { router } from 'utils'
+import { router } from '../../../src/utils'
 import { connect } from 'dva'
 import { Trans, withI18n } from '@lingui/react'
 import { Page, ImageUploadCrop } from 'components'
@@ -22,7 +22,7 @@ import {
 import { withRouter } from 'react-router'
 import styles from './index.less'
 import Link from 'umi/link'
-import { helpers } from 'utils'
+import { helpers } from '../../../src/utils'
 import _ from 'lodash'
 const { Meta } = Card
 

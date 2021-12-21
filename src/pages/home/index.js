@@ -13,7 +13,7 @@ import {
   Icon,
   Form,
 } from 'antd'
-import { config } from 'utils'
+import { config } from '../../../src/utils'
 import styles from './index.less'
 const { TabPane } = Tabs
 import '../../layouts/BaseLayout.less'

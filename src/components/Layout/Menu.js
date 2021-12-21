@@ -8,7 +8,7 @@ import {
   queryAncestors,
   pathMatchRegexp,
   addLangPrefix,
-} from 'utils'
+} from '../../../src/utils'
 import store from 'store'
 
 const { SubMenu } = Menu

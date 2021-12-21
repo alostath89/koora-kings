@@ -4,7 +4,7 @@ import { Breadcrumb, Icon } from 'antd'
 import Link from 'umi/navlink'
 import withRouter from 'umi/withRouter'
 import { withI18n } from '@lingui/react'
-import { pathMatchRegexp, queryAncestors, addLangPrefix } from 'utils'
+import { pathMatchRegexp, queryAncestors, addLangPrefix } from '../../../src/utils'
 import styles from './Bread.less'
 
 @withI18n()

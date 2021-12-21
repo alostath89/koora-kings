@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
-import { router } from 'utils'
+import { router } from '../../../src/utils'
 import { connect } from 'dva'
 import { withI18n } from '@lingui/react'
 import { Page } from 'components'

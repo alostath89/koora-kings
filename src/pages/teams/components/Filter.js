@@ -22,7 +22,7 @@ import { withRouter } from 'react-router'
 import { connect } from 'dva'
 import _ from 'lodash'
 import styles from './List.less'
-import { helpers } from 'utils'
+import { helpers } from '../../../../src/utils'
 
 const { Option } = Select
 

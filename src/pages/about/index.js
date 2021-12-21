@@ -3,7 +3,7 @@ import { connect } from 'dva'
 import { withI18n } from '@lingui/react'
 import { Page } from 'components'
 import styles from './index.less'
-import { config, helpers } from 'utils'
+import { config, helpers } from '../../../src/utils'
 import { Button, Col, Form, Input, Row, Select } from 'antd'
 const { TextArea } = Input
 

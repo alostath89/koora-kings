@@ -1,5 +1,5 @@
 import React from 'react'
-import { request } from 'utils'
+import { request } from '../../../src/utils'
 import { apiPrefix } from 'utils/config'
 import {
   Row,

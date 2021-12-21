@@ -1,4 +1,4 @@
-import { router, pathMatchRegexp } from 'utils'
+import { router, pathMatchRegexp } from '../../../src/utils'
 import api from '../../services/api'
 import axios from 'axios'
 

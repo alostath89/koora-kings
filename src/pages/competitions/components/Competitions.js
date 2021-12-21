@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
-import { helpers } from 'utils'
+import { helpers } from '../../../../src/utils'
 import { connect } from 'dva'
 import {
   Row,

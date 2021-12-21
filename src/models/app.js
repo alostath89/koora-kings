@@ -1,10 +1,10 @@
 /* global window */
 
-import { router } from 'utils'
+import { router } from '../../src/utils'
 import { stringify } from 'qs'
 import store from 'store'
 import { ROLE_TYPE } from 'utils/constant'
-import { queryLayout, pathMatchRegexp } from 'utils'
+import { queryLayout, pathMatchRegexp } from '../../src/utils'
 import { CANCEL_REQUEST_MESSAGE } from 'utils/constant'
 import api from '../services/api'
 import config from '../utils/config'

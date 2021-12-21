@@ -8,7 +8,7 @@ import { MyLayout } from 'components'
 import { BackTop, Layout, Drawer } from 'antd'
 import { GlobalFooter } from 'ant-design-pro'
 import { enquireScreen, unenquireScreen } from 'enquire-js'
-import { config, pathMatchRegexp, langFromPath } from 'utils'
+import { config, pathMatchRegexp, langFromPath } from '../../src/utils'
 import Error from '../pages/404'
 import { history } from 'umi'
 

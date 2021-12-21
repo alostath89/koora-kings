@@ -3,7 +3,7 @@
 /* global navigator */
 
 import React, { Component } from 'react'
-import { config } from 'utils'
+import { config } from '../../../src/utils'
 import _ from 'lodash'
 import { compose, withProps, lifecycle } from 'recompose'
 import {

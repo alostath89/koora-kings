@@ -2,8 +2,8 @@ import axios from 'axios'
 import { cloneDeep } from 'lodash'
 import pathToRegexp from 'path-to-regexp'
 import { message } from 'antd'
-import { CANCEL_REQUEST_MESSAGE } from 'constant'
-import { apiUrl } from 'config'
+import { CANCEL_REQUEST_MESSAGE } from '../utils/constant'
+import { apiUrl } from '../utils/config'
 
 const { CancelToken } = axios
 window.cancelRequest = new Map()

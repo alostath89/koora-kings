@@ -1,6 +1,6 @@
 import React from 'react'
 import { request } from '../../../src/utils'
-import { apiPrefix } from 'utils/config'
+import { apiPrefix } from '../../../src/utils/config'
 import {
   Row,
   Col,

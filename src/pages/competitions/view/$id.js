@@ -14,7 +14,7 @@ import {
   Table,
 } from 'antd'
 import { Trans, withI18n } from '@lingui/react'
-import { Page } from 'components'
+import { Page } from '../../../../src/components'
 import _ from 'lodash'
 import { DeleteOutlined, EditOutlined } from '@ant-design/icons'
 import styles from '../components/Competitions.less'

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { router } from '../../../src/utils'
 import { connect } from 'dva'
 import { Trans, withI18n } from '@lingui/react'
-import { Page, ImageUploadCrop } from 'components'
+import { Page, ImageUploadCrop } from '../../../src/components'
 import {
   Button,
   Col,

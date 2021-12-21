@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 import { router } from '../../../src/utils'
 import { connect } from 'dva'
 import { withI18n } from '@lingui/react'
-import { Page } from 'components'
-import List from './components/List'
+import { Page } from '../../../src/components'
+import List from '../../../src/pages/teams/components/List'
 
 @withI18n()
 @connect(({ loading }) => ({ loading }))

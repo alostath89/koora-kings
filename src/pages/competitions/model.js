@@ -3,7 +3,7 @@
 import modelExtend from 'dva-model-extend'
 import { pathMatchRegexp, config } from '../../../src/utils'
 import api from '../../services/api'
-import { pageModel } from 'utils/model'
+import { pageModel } from '../../../src/utils/model'
 import { message } from 'antd'
 import { delay } from 'redux-saga'
 import { routerRedux } from 'dva/router'

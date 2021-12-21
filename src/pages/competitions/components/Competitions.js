@@ -17,7 +17,7 @@ import {
   Divider,
 } from 'antd'
 import { withI18n } from '@lingui/react'
-import { Page, ImageUploadCrop } from 'components'
+import { Page, ImageUploadCrop } from '../../../../src/components'
 import styles from './Competitions.less'
 import _ from 'lodash'
 import { withRouter } from 'react-router'

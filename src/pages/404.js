@@ -1,6 +1,6 @@
 import React from 'react'
 import { Icon } from 'antd'
-import { Page } from 'components'
+import { Page } from '../../src/components'
 import styles from './404.less'
 
 const Error = () => (

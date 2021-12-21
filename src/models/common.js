@@ -1,6 +1,6 @@
 /* global window */
 
-import api from 'api'
+import api from '../services/api'
 import { message } from 'antd'
 import _ from 'lodash'
 import { routerRedux } from 'dva/router'

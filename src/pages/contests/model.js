@@ -2,7 +2,7 @@
 
 import modelExtend from 'dva-model-extend'
 import { pathMatchRegexp, config } from 'utils'
-import api from 'api'
+import api from '../../services/api'
 import { pageModel } from 'utils/model'
 import { message } from 'antd'
 import { delay } from 'redux-saga'

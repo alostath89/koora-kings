@@ -1,5 +1,5 @@
 import { router, pathMatchRegexp } from 'utils'
-import api from 'api'
+import api from '../../services/api'
 import axios from 'axios'
 
 const { loginUser } = api

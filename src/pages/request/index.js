@@ -16,7 +16,7 @@ import {
 import classnames from 'classnames'
 import { Trans } from '@lingui/react'
 import api from '@/services/api'
-import { Page } from 'components'
+import { Page } from '../../../src/components'
 
 import styles from './index.less'
 

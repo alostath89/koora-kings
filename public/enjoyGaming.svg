@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="116px" height="116px" viewBox="0 0 116 116" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ICON</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home-0" transform="translate(-1285.000000, -2444.000000)">
+            <g id="HOW" transform="translate(-2.000000, 2072.000000)">
+                <g id="3" transform="translate(1207.000000, 374.000000)">
+                    <g id="ICON" transform="translate(82.000000, 0.000000)">
+                        <path d="M56,112 C86.927946,112 112,86.927946 112,56 C112,25.072054 86.927946,0 56,0 C25.072054,0 0,25.072054 0,56 C0,86.927946 25.072054,112 56,112 Z" id="Oval-Copy" stroke="#FBBA00" stroke-width="3" stroke-linecap="round" stroke-dasharray="0,11"></path>
+                        <circle id="Oval-Copy-2" fill="#000000" cx="56" cy="56" r="49"></circle>
+                        <g id="spaceship" transform="translate(37.000000, 38.000000)" stroke="#FFFFFF" stroke-width="2">
+                            <line x1="24" y1="4" x2="34" y2="14" id="Path"></line>
+                            <path d="M20,5.14931014 C15.0607251,2.93033748 9.11195106,3.92428907 5.07818173,8.13292879 C4.25046004,8.99635257 3.56816034,9.94973471 3,10.9542696 L8.79574278,17" id="Path"></path>
+                            <path d="M32.8128147,18 C35.081938,22.9360269 34.0965102,28.8888889 29.8714889,32.9309764 C29.0101195,33.7550505 28.0590058,34.4343434 27.056861,35 L21,29.2053872" id="Path"></path>
+                            <path d="M15.8462877,32 L6,22.1537123 C6,22.1537123 14.4103345,1.2305684 38,0 C36.6667392,23.4869731 15.8462877,32 15.8462877,32 Z" id="Path" stroke-linecap="square"></path>
+                            <path d="M0,33.5 C0,31.0151 2.0151,29 4.5,29 C6.9849,29 9,31.0151 9,33.5 C9,35.9849 6.9849,38 4.5,38 C3.4875,38 0,38 0,38 C0,38 0,34.9733 0,33.5 Z" id="Path" stroke-linecap="square"></path>
+                            <circle id="Oval" stroke-linecap="square" cx="21.5" cy="16.5" r="3.5"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

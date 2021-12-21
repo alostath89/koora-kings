@@ -1,0 +1,27 @@
+@import '~themes/vars.less';
+@import '~themes/index.less';
+
+.disabledInput {
+  margin-bottom: 10px;
+}
+.primaryBtn {
+  width: calc(100% - 10px);
+  margin-right: 10px;
+}
+.secondaryBtn {
+  width: 100%;
+  &:hover {
+    border-color: @dark-half !important;
+    background-color: @secondary !important;
+    color: @dark-half !important;
+  }
+}
+
+.customTooltip {
+  color: @primary !important;
+}
+.generatePassword {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

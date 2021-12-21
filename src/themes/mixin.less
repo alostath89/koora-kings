@@ -1,0 +1,45 @@
+@import '~themes/default';
+
+@purple: #d897eb;
+@shadow-1: 4px 4px 20px 0 rgba(0, 0, 0, 0.01);
+@shadow-2: 4px 4px 40px 0 rgba(0, 0, 0, 0.05);
+@shadow-3: -1px 8px 16px -4px rgba(0, 0, 0, 0.1);
+@shadow-4: -1px 8px 18px 3px rgba(0, 0, 0, 0.1);
+@formItem-shadow: 0 0 0 3px rgba(0, 0, 0, 0.05);
+@transition-ease-in: all 0.3s ease-out;
+@transition-ease-out: all 0.3s ease-out;
+@ease-in: ease-in;
+@primary: #e8ad56;
+@dark-half: #131313;
+@secondary: #e8ad56;
+@light-grey: #f8f8f8;
+@grey: #979797;
+@mid-grey: #d2d2d2;
+@primary-brand: #1b3280;
+@star-color: #ffd248;
+
+.text-overflow {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.text-gradient {
+  background-image: -webkit-gradient(
+    linear,
+    37.219838% 34.532506%,
+    36.425669% 93.178216%,
+    from(#29cdff),
+    to(#0a60ff),
+    color-stop(0.37, #148eff)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.background-hover {
+  transition: @transition-ease-in;
+  &:hover {
+    background-color: @hover-color;
+  }
+}

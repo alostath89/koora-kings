@@ -1,0 +1,58 @@
+{
+  "ID": {
+    "origin": [
+      [
+        "src/pages/players/components/List.js",
+        120
+      ]
+    ]
+  },
+  "Name": {
+    "origin": [
+      [
+        "src/pages/players/components/List.js",
+        126
+      ]
+    ]
+  },
+  "Position": {
+    "origin": [
+      [
+        "src/pages/players/components/List.js",
+        132
+      ]
+    ]
+  },
+  "Salary": {
+    "origin": [
+      [
+        "src/pages/players/components/List.js",
+        138
+      ]
+    ]
+  },
+  "Team Name": {
+    "origin": [
+      [
+        "src/pages/players/components/List.js",
+        144
+      ]
+    ]
+  },
+  "League": {
+    "origin": [
+      [
+        "src/pages/players/components/List.js",
+        150
+      ]
+    ]
+  },
+  "Operation": {
+    "origin": [
+      [
+        "src/pages/players/components/List.js",
+        156
+      ]
+    ]
+  }
+}

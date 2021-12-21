@@ -1,0 +1,288 @@
+@import '~themes/vars.less';
+
+.header {
+  padding: 0;
+  box-shadow: @shadow-2;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 95px;
+  z-index: 9;
+  align-items: center;
+  background-color: #fff;
+
+  &.fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: ~'calc(100% - 256px)';
+    z-index: 29;
+    transition: width 0.2s;
+
+    &.collapsed {
+      width: ~'calc(100% - 80px)';
+    }
+  }
+
+  :global {
+    .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+      background-color: inherit !important;
+      color: @primary;
+      border-left: 4px solid @primary;
+      border-radius: 2px;
+
+    }
+    .ant-menu-submenu-title {
+      height: 72px;
+    }
+
+    .ant-menu-horizontal {
+      line-height: 72px;
+
+      & > .ant-menu-submenu:hover {
+        color: @primary-color;
+        background-color: @hover-color;
+      }
+    }
+
+    .ant-menu {
+      border-bottom: none;
+      height: 72px;
+    }
+
+    .ant-menu-horizontal > .ant-menu-submenu {
+      top: 0;
+      margin-top: 0;
+    }
+
+    .ant-menu-horizontal > .ant-menu-item,
+    .ant-menu-horizontal > .ant-menu-submenu {
+      border-bottom: none;
+    }
+
+    .ant-menu-horizontal > .ant-menu-item-active,
+    .ant-menu-horizontal > .ant-menu-item-open,
+    .ant-menu-horizontal > .ant-menu-item-selected,
+    .ant-menu-horizontal > .ant-menu-item:hover,
+    .ant-menu-horizontal > .ant-menu-submenu-active,
+    .ant-menu-horizontal > .ant-menu-submenu-open,
+    .ant-menu-horizontal > .ant-menu-submenu-selected,
+    .ant-menu-horizontal > .ant-menu-submenu:hover {
+      border-bottom: none;
+    }
+  }
+
+  .rightContainer {
+    display: flex;
+    align-items: center;
+  }
+
+  .button {
+    width: 72px;
+    height: 72px;
+    line-height: 72px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    transition: @transition-ease-in;
+
+    &:hover {
+      color: @primary;
+      background-color: @light-grey;
+    }
+  }
+}
+
+.iconButton {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  cursor: pointer;
+  .background-hover();
+
+  &:hover {
+    .iconFont {
+      color: @primary;
+    }
+  }
+
+  & + .iconButton {
+    margin-left: 8px;
+  }
+
+  .iconFont {
+    color: @grey;
+    font-size: 24px;
+  }
+}
+
+.notification {
+  padding: 24px 0;
+  width: 320px;
+  .notificationItem {
+    transition: all 0.3s;
+    padding: 12px 24px;
+    cursor: pointer;
+    &:hover {
+      background-color: @hover-color;
+    }
+  }
+  .clearButton {
+    text-align: center;
+    height: 48px;
+    line-height: 48px;
+    cursor: pointer;
+    .background-hover();
+  }
+}
+
+.notificationPopover {
+  :global {
+    .ant-popover-inner-content {
+      padding: 0;
+    }
+    .ant-popover-arrow {
+      display: none;
+    }
+    .ant-list-item-content {
+      flex: 0;
+      margin-left: 16px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    width: 100% !important;
+  }
+}
+.customHeaderMenu {
+  background-color: inherit;
+  color: white;
+}
+.customHeaderMenuAr {
+    transform: rotate(180deg);
+   li {
+    transform: rotate(-180deg);
+  }
+}
+.customHeaderMenu_signIn {
+  padding: 10px 32px;
+  border: none;
+  color: #000000;
+  border-radius: 5px;
+  background-image: linear-gradient(99deg, #f7d446 -33%, #f2ab3f 105%);
+}
+.customHeaderMenu_pages {
+  &:hover {
+    background-color: inherit !important;
+    color: white !important;
+  }
+  :global {
+    .ant-menu-submenu {
+      background-color: red !important;
+    }
+  }
+
+}
+.langIcon {
+  img {
+    margin-right: 5px;
+  }
+}
+
+.customHeaderMenu_withFlag {
+  display: flex;
+  align-items: center;
+  i {
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  img {
+    margin-right: 5px;
+  }
+}
+
+.customHeaderMenu_vertical {
+  position: absolute;
+  top: 78px;
+  left: 0;
+  right: 0;
+  background: #000;
+  height: auto !important;
+  border-top: 1px solid #fbba00;
+  border-bottom: 1px solid #fbba00 !important;
+  border-right: none;
+  padding: 22px 24px 64px 0;
+  box-shadow: 0 4px 22px 0 rgba(0, 0, 0, 0.15);
+  li {
+    color: #fff;
+    font-size: 20px;
+    line-height: 2.4;
+    letter-spacing: normal;
+    font-weight: bold;
+    &:active{
+      background-color: inherit;
+    }
+    &:active {
+      background-color: inherit;
+    }
+  }
+}
+.buttons {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 0 0 30px 0;
+  :global {
+    .ant-rate {
+      z-index: 2;
+    }
+  }
+
+  button {
+    width: 169px;
+    height: 46px;
+    padding: 6px 26px 8px;
+    border-radius: 5px;
+    z-index: 2;
+    cursor: pointer;
+  }
+  button:first-child {
+    background-image: linear-gradient(97deg, #f7d446 -35%, #f2ab3f 105%);
+    color: #000000;
+    &:hover {
+      background-image: none;
+      background-color: #000000 !important;
+      border-color: @primary !important;
+      color: @primary !important;
+    }
+  }
+
+  button:last-child {
+    margin-left: 20px;
+    border: solid 1px #f5b123;
+    background-color: transparent;
+    color: #d4991e;
+    &:hover {
+      background-image: linear-gradient(97deg, #f7d446 -35%, #f2ab3f 105%);
+      color: #000000;
+
+    }
+  }
+  span:last-child {
+    margin: 0 0 0 11px;
+  }
+  img {
+    z-index: 2;
+    cursor: pointer;
+  }
+  img:last-child {
+    margin: 0 0 0 11px;
+    color: #ffffff;
+  }
+}

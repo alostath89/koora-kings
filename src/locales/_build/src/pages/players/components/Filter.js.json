@@ -1,0 +1,66 @@
+{
+  "Full Name": {
+    "origin": [
+      [
+        "src/pages/players/components/Filter.js",
+        93
+      ]
+    ]
+  },
+  "Search Full Name": {
+    "origin": [
+      [
+        "src/pages/players/components/Filter.js",
+        96
+      ]
+    ]
+  },
+  "Phone": {
+    "origin": [
+      [
+        "src/pages/players/components/Filter.js",
+        103
+      ]
+    ]
+  },
+  "Search Phone": {
+    "origin": [
+      [
+        "src/pages/players/components/Filter.js",
+        108
+      ]
+    ]
+  },
+  "Email": {
+    "origin": [
+      [
+        "src/pages/players/components/Filter.js",
+        115
+      ]
+    ]
+  },
+  "Search Email": {
+    "origin": [
+      [
+        "src/pages/players/components/Filter.js",
+        120
+      ]
+    ]
+  },
+  "Search": {
+    "origin": [
+      [
+        "src/pages/players/components/Filter.js",
+        138
+      ]
+    ]
+  },
+  "Reset": {
+    "origin": [
+      [
+        "src/pages/players/components/Filter.js",
+        141
+      ]
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+@import '~themes/vars.less';
+@import '~themes/index.less';
+
+.table {
+  :global {
+    .ant-table td {
+      white-space: nowrap;
+    }
+  }
+  .editLink {
+    color: @primary !important;
+    padding: 5px;
+    cursor: pointer;
+  }
+  .deleteLink {
+    color: rgb(204, 46, 72) !important;
+    padding: 5px;
+    cursor: pointer;
+  }
+  .truncate {
+    width: 270px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0 auto;
+  }
+}
+
+.addLink {
+  span {
+    color: @grey;
+    a {
+      margin-left: 5px;
+      color: @primary !important;
+    }
+  }
+}
+
+.saveLink {
+  color: @primary;
+  &:hover {
+    color: @secondary;
+  }
+}
+
+.delLink {
+  color: @black;
+  &:hover {
+    color: @secondary;
+  }
+}
+
+.filterStyle {
+  .ant-col {
+    margin-bottom: 5px !important;
+  }
+}
+
+.filterBtns {
+  line-height: 0;
+}
+
+.searchAndFilter {
+  input[type='text'] {
+    height: 38px !important;
+  }
+}
+
+.createBtnDiv {
+  display: flex;
+  justify-content: flex-end;
+}

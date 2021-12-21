@@ -1,0 +1,26 @@
+{
+  "Email": {
+    "origin": [
+      [
+        "src/pages/login/index.js",
+        100
+      ]
+    ]
+  },
+  "Password": {
+    "origin": [
+      [
+        "src/pages/login/index.js",
+        115
+      ]
+    ]
+  },
+  "Sign in": {
+    "origin": [
+      [
+        "src/pages/login/index.js",
+        125
+      ]
+    ]
+  }
+}

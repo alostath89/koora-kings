@@ -1,0 +1,34 @@
+{
+  "ID": {
+    "origin": [
+      [
+        "src/pages/contests/components/List.js",
+        109
+      ]
+    ]
+  },
+  "Name": {
+    "origin": [
+      [
+        "src/pages/contests/components/List.js",
+        114
+      ]
+    ]
+  },
+  "Type": {
+    "origin": [
+      [
+        "src/pages/contests/components/List.js",
+        119
+      ]
+    ]
+  },
+  "Operation": {
+    "origin": [
+      [
+        "src/pages/contests/components/List.js",
+        124
+      ]
+    ]
+  }
+}

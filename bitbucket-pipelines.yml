@@ -1,0 +1,23 @@
+image: node:12.16.1
+pipelines:
+  branches:
+    release/release-1.0.0:
+      - step:
+          deployment: staging
+          caches:
+            - node
+          script:
+            - npm install
+            - npm install -g firebase-tools
+            - npm run build
+            - firebase deploy --token "1//03DxO6vvkjUA8CgYIARAAGAMSNwF-L9IrzPFv0Ndt6p3xRahlDbzkiYL0xmDjqTJA4w0-ktybIUCtY9yshP_Y2FlT4AlIslqK_ls" --project koora-kings-staging  --only hosting --non-interactive
+    master:
+      - step:
+          deployment: production
+          caches:
+            - node
+          script:
+            - npm install
+            - npm install -g firebase-tools
+            - npm run build
+            - firebase deploy --token "1//03DxO6vvkjUA8CgYIARAAGAMSNwF-L9IrzPFv0Ndt6p3xRahlDbzkiYL0xmDjqTJA4w0-ktybIUCtY9yshP_Y2FlT4AlIslqK_ls" --project koora-kings-prod  --only hosting --non-interactive

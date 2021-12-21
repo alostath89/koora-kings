@@ -1,0 +1,100 @@
+@import '~themes/vars.less';
+@import '~themes/index.less';
+
+.aboutHeaderP {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Open Sans';
+  color: #c19a24;
+  line-height: 150%;
+  margin-top: 50px;
+}
+.staticPage{
+  padding: 50px 0 0 0 !important;
+}
+.section1 {
+  padding: 24px;
+  margin-bottom: 50px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .logoPath {
+    width: 40%;
+    animation: fadeRightIn 300ms @ease-in-out;
+    animation-fill-mode: both;
+  }
+  .iconLogo {
+    animation: fadeRightIn 300ms @ease-in-out;
+    animation-fill-mode: both;
+    width: 30px;
+  }
+}
+.existingUser, .newUser{
+  width: calc(100% - 10px);
+}
+
+.newUser {
+  background-color: #2a2a2a;
+  border-color: #2a2a2a;
+  color: #fff;
+}
+
+.secondaryBtn {
+  width: 100%;
+  &:hover {
+    border-color: #343434 !important;
+    background-color: @secondary !important;
+    color: #343434 !important;
+  }
+}
+.section2Heading {
+  color: #feca28;
+  text-align: center;
+  font-family:Josefin Sans;
+  font-weight:700;
+  font-style:normal;
+  font-size: 20px;
+}
+
+.section2 {
+  padding: 80px 24px;
+  margin-bottom: 50px;
+  text-align: center;
+  background-image: url("https://main.koorakings.com/wp-content/uploads/2019/05/vienna-reyes-616732-unsplash-2.png?id=1876");
+}
+.section2 h5 {
+  color: #fff;
+  font-size: 20px;
+}
+
+.section3 {
+  margin-bottom: 50px;
+  overflow-y: scroll;
+}
+
+.section4 {
+  background-color: #f7f7f7;
+  padding: 24px;
+}
+.section5 {
+  background-color: #f7f7f7;
+  padding: 24px;
+  :global {
+    .ant-input {
+      border-radius: 5px;
+      height: 40px;
+    }
+    .ant-form-item-label {
+      span {
+        color: #343434;
+      }
+    }
+  }
+}

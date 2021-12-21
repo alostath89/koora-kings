@@ -1,0 +1,66 @@
+{
+  "ID": {
+    "origin": [
+      [
+        "src/pages/users/components/List.js",
+        145
+      ]
+    ]
+  },
+  "Username": {
+    "origin": [
+      [
+        "src/pages/users/components/List.js",
+        151
+      ]
+    ]
+  },
+  "E-mail": {
+    "origin": [
+      [
+        "src/pages/users/components/List.js",
+        157
+      ]
+    ]
+  },
+  "Phone": {
+    "origin": [
+      [
+        "src/pages/users/components/List.js",
+        163
+      ]
+    ]
+  },
+  "Full Name": {
+    "origin": [
+      [
+        "src/pages/users/components/List.js",
+        169
+      ]
+    ]
+  },
+  "Country": {
+    "origin": [
+      [
+        "src/pages/users/components/List.js",
+        175
+      ]
+    ]
+  },
+  "Activate/Deactivate": {
+    "origin": [
+      [
+        "src/pages/users/components/List.js",
+        184
+      ]
+    ]
+  },
+  "Operation": {
+    "origin": [
+      [
+        "src/pages/users/components/List.js",
+        210
+      ]
+    ]
+  }
+}

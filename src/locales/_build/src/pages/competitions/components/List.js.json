@@ -1,0 +1,42 @@
+{
+  "ID": {
+    "origin": [
+      [
+        "src/pages/competitions/components/List.js",
+        128
+      ]
+    ]
+  },
+  "Name": {
+    "origin": [
+      [
+        "src/pages/competitions/components/List.js",
+        133
+      ]
+    ]
+  },
+  "Arabic Name": {
+    "origin": [
+      [
+        "src/pages/competitions/components/List.js",
+        138
+      ]
+    ]
+  },
+  "League": {
+    "origin": [
+      [
+        "src/pages/competitions/components/List.js",
+        143
+      ]
+    ]
+  },
+  "Operation": {
+    "origin": [
+      [
+        "src/pages/competitions/components/List.js",
+        149
+      ]
+    ]
+  }
+}

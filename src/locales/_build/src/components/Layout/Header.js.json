@@ -1,0 +1,18 @@
+{
+  "Hi,": {
+    "origin": [
+      [
+        "src/components/Layout/Header.js",
+        38
+      ]
+    ]
+  },
+  "Sign out": {
+    "origin": [
+      [
+        "src/components/Layout/Header.js",
+        46
+      ]
+    ]
+  }
+}

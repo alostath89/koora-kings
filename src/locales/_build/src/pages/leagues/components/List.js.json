@@ -1,0 +1,58 @@
+{
+  "ID": {
+    "origin": [
+      [
+        "src/pages/leagues/components/List.js",
+        143
+      ]
+    ]
+  },
+  "Name": {
+    "origin": [
+      [
+        "src/pages/leagues/components/List.js",
+        148
+      ]
+    ]
+  },
+  "Current Season": {
+    "origin": [
+      [
+        "src/pages/leagues/components/List.js",
+        153
+      ]
+    ]
+  },
+  "Is Cup": {
+    "origin": [
+      [
+        "src/pages/leagues/components/List.js",
+        159
+      ]
+    ]
+  },
+  "Sport Type": {
+    "origin": [
+      [
+        "src/pages/leagues/components/List.js",
+        165
+      ]
+    ]
+  },
+  "Enable/Disable": {
+    "origin": [
+      [
+        "src/pages/leagues/components/List.js",
+        170
+      ]
+    ]
+  },
+  "Operation": {
+    "origin": [
+      [
+        "src/pages/leagues/components/List.js",
+        195
+      ]
+    ]
+  }
+}

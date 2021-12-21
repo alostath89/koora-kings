@@ -1,0 +1,26 @@
+{
+  "Slider Page": {
+    "origin": [
+      [
+        "src/pages/slider/components/List.js",
+        117
+      ]
+    ]
+  },
+  "Images Count": {
+    "origin": [
+      [
+        "src/pages/slider/components/List.js",
+        128
+      ]
+    ]
+  },
+  "Operation": {
+    "origin": [
+      [
+        "src/pages/slider/components/List.js",
+        133
+      ]
+    ]
+  }
+}
